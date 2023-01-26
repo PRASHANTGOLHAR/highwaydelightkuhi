@@ -274,7 +274,7 @@ html {
 
 #contact {
     position: relative;
-    z-index: -1;
+    /* z-index: -1; */
     /* width: auto;
         margin: 20px 0px; */
 
@@ -296,14 +296,16 @@ html {
 
 #contact1 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    
     padding-bottom: 34px;
 }
 
 #contact1 input,
 #contact1 textarea {
-    width: 100%;
+    width: 500px;
     padding: 0.4rem;
     margin: 5px;
     border-radius: 12px;
@@ -311,17 +313,17 @@ html {
     text-align: center;
 }
 
-#contact1 form {
+/* #contact1 form {
     width: 40%;
 
-}
+} */
 
-#contact1 label {
-    font-size: 1.3rem;
+/* #contact1 label {
+    font-size: 2.3rem;
 
-}
+} */
 
-.btn a {
+#contact1 a {
     
     padding: 6px 20px;
     margin: 12px;
@@ -335,7 +337,7 @@ html {
     
 }
 
-.btn a:hover {
+#contact1 a:hover {
     background-color: black;
     color: burlywood;
 }
