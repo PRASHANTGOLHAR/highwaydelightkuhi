@@ -68,7 +68,23 @@
 #contact {
     overflow: hidden;
 }
-
+#contact1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding-bottom: 34px;
+}
+#contact1 input,
+#contact1 textarea {
+    width: 300px;
+    padding: 0.4rem;
+    margin: 5px;
+    border-radius: 12px;
+    font-size: 1rem;
+    text-align: center;
+}
 
 
 /* footer */
